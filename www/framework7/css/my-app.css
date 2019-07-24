@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+@font-face{
+    font-family: 'Museo 500';
+    src: url('/font/Museo700-Regular.otf') format('opentype');
+    font-style:normal;
+}
+
+.index{
+    background-image: url('/img/bg-login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    margin-top: 10%;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.app-name .title{
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #00AEEF;
+}
+
+.line{
+    border: 0;
+    background-color: #fff;
+    height: 1px;
+    width: 60%;
+    margin-top: 10%;
+}
+
+.form-login, .btn-signin, .content-top{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-login ul{
+    background-color: transparent;
+}
+
+.list .item-content .item-inner .item-label {
+    color: #fff;
+    font-size: 14px;
+}
+
+.list .item-content .item-inner .item-input-wrap input::-webkit-input-placeholder {
+    color: #A9A9A9 !important;
+    font-size: 12px;
+}
+
+.list .item-content .item-inner .item-input-wrap input {
+    color: #fff;
+    border-bottom: 1px solid #A9A9A9;
+}
+
+.icon-size{
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.greetings{
+    font-family: 'Museo 500', sans-serif;
+    font-size: 15px !important;
+    margin-top: 20% !important;
+    margin-bottom: 0;
+}
+
+.title-post-page{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px !important;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 6px rgba(0,0,0, 0.15);
+    margin-top: 0;
+    margin-bottom: 5% !important;
+}
+
+.subnavbar{
+    width: 90% !important;
+    margin-top: 10% !important;
+}
+.subnavbar, .searchbar, .searchbar-inner{
+    border-radius: 50px !important;
+    height: 35px !important;
+    width: 90% !important;
+    margin-right: auto !important;
+    margin-left: 5% !important;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- Required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- Color theme for statusbar -->
+        <meta name="theme-color" content="#2196f3">
+        <!-- Your app title -->
+        <title>My App</title>
+        <!-- Path to Framework7 Library Bundle CSS -->
+        <link rel="stylesheet" href="/framework7/css/framework7.bundle.min.css">
+        <!-- Path to Framework7 icons-->
+        <link rel="stylesheet" href="/framework7/css/framework7-icon.css">
+        <!-- Path to your custom app styles-->
+        <link rel="stylesheet" href="/framework7/css/my-app.css">
+    </head>
+
+    <body>
+        <!-- App root element -->
+        <div id="app">
+            <!-- Statusbar overlay -->
+            <div class="statusbar"></div>
+
+            <!-- Your main view, should have "view-main" class -->
+            <div class="view view-main">
+                <!-- Initial Page, "data-name" contains page name -->
+                <div data-name="posts" class="page posts">
+
+                    <!-- Scrollable page content -->
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="row">
+                                <p class="title greetings">Welcome back, Staff Richard</p>
+                                <p class="title title-post-page">Choose Staff</p>
+                            </div>
+                            <div class="subnavbar">
+                                <!-- Searchbar with auto init -->
+                                <form class="searchbar">
+                                    <div class="searchbar-inner">
+                                        <div class="searchbar-input-wrap">
+                                            <input type="search" placeholder="Search">
+                                            <i class="searchbar-icon"></i>
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                        <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <!-- Searchbar backdrop -->
+                        <div class="searchbar-backdrop"></div>
+                        <!-- hide-on-search element -->
+                        <div class="block searchbar-hide-on-search">
+                            <p>This block will be hidden on search. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit.</p>
+                        </div>
+                        <!-- search target list -->
+                        <div class="list searchbar-found">
+                            <ul>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Acura</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Audi</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">BMW</div>
+                                    </div>
+                                </li>
+                                ...
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Volvo</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Nothing found message -->
+                        <div class="block searchbar-not-found">
+                            <div class="block-inner">Nothing found</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Path to Framework7 Library Bundle JS-->
+        <script type="text/javascript" src="/framework7/js/framework7.bundle.min.js"></script>
+        <!-- Path to your app js-->
+        <script type="text/javascript" src="/framework7/js/my-app.js"></script>
+    </body>
+
+</html>
